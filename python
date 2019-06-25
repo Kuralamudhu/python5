@@ -8,3 +8,4 @@ elif c in d:
   print("Consonant:")
 else:
   print("invalid:")
+  
