@@ -1,11 +1,11 @@
 import sys
-vow='aeiouAEIOU'
+vow='AEIOUaeiou'
 d='BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz'
 c=input()
 if c in vow:
   print("Vowel:")
-elif c in d:
-  print("Consonant:")
 else:
+  print("Consonant:")
+elif:
   print("invalid:")
   
