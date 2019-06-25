@@ -1,7 +1,10 @@
-ch=input("enter a character:")
-if(ch=='A' or ch=='a' or ch=='E' or ch=='e' or ch=='I' or ch=='i' or ch=='O' or ch=='o' ch=='U' or ch=='u' 
-  print(ch,"is a Vowel")
+import sys
+vow='aeiouAEIOU'
+d='BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz'
+c=input()
+if c in vow:
+  print("Vowel:")
+elif c in d:
+  print("Consonant:")
 else:
-  print(ch,"is a Consonant")
-elif:
-  print(ch,"is a invalid")
+  print("invalid:")
